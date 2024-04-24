@@ -9,7 +9,6 @@ def by_promotion(n, a, b) -> int:
     else:
         return (math.floor(n / 2) * b) + a
 
-
 out = []
 for _ in range (int(input())):
     x  = input().split()
